@@ -48,13 +48,13 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ItemClick.cs" />
      <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
-     <Compile Include="Assets\Scripts\Parser.cs" />
+     <Compile Include="Assets\Scripts\Parser_IW.cs" />
      <Compile Include="Assets\Scripts\ScrollDynamic.cs" />
      <Compile Include="Assets\Scripts\SearchBar.cs" />
      <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
      <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Scripts\UpdateNodeText.cs" />
-     <None Include="Assets\TriggerTexts\iwtriggers.txt" />
+     <None Include="Assets\TriggerTexts\zis_iw_triggers.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

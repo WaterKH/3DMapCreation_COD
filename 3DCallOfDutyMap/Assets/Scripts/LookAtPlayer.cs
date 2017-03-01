@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class LookAtPlayer : MonoBehaviour {
 
-	void OnTriggerStay(Collider col)
+	/*void OnTriggerStay(Collider col)
 	{
 		if(col.tag == "MainCamera")
 		{
 			transform.LookAt(col.transform);
 		}
-	}
+	}*/
 }
