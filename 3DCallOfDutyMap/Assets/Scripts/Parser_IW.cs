@@ -9,19 +9,20 @@ public class Parser_IW : MonoBehaviour {
 	public const string nameID = "497";
 	public const string altName = "638";
 	public const string orientation = "65";
-	//public string origin = "543";
-	public const string origin = "origin";
-	//public string localName = "822";
-	public const string targetname = "target_name";
-	//public string type = "157";
-	public const string classname = "classname";
-	string[] stringSeparators = new string[] {"\n},\n{\n"};
-	string[] dataSeparators = new string[] {",\n"};
+	public const string origin = "543";
+	public const string origin_alt = "origin";
+	public const string targetname = "822";
+	public const string targetname_alt = "target_name";
+	public const string classname = "157";
+	public const string classname_alt = "classname";
+	string[] stringSeparators = new string[] {"\n}\n{\n"};
+	string[] dataSeparators = new string[] {"\n"};
 
 	public ScrollDynamic scrollDyn;
 
 	void Awake()
 	{
+		print("Generating Nodes.");
 		var data = textAsset.text.Split(stringSeparators, StringSplitOptions.None);
 		//print(data.Length);
 		var dataLength = data.Length;
@@ -34,6 +35,7 @@ public class Parser_IW : MonoBehaviour {
 		foreach(var d in data)
 		{
 			//var temp = d.Split(dataSeparators, StringSplitOptions.None);
+			//print(temp[0]);
 
 			subData.Add(d.Split(dataSeparators, StringSplitOptions.None));	
 		}
@@ -41,6 +43,8 @@ public class Parser_IW : MonoBehaviour {
 		List<GameObject> parsedData = ParseData(subData);
 
 		scrollDyn.CreateListOfItems(parsedData);
+
+		print("Generation Completed.");
 	}
 
 	public List<GameObject> ParseData(List<string[]> subData)
@@ -56,28 +60,42 @@ public class Parser_IW : MonoBehaviour {
 			{
 				if(ss.Length > 1)
 				{
-					var kv = ss.Split(':');
-					string key = kv[0];
-					string value = kv[1];
+					string[] kv;
+					string key, value;
+
+					if(ss.Contains(":"))
+					{
+						kv = ss.Split(':');
+						key = kv[0];
+						value = kv[1];
+					}
+					else
+					{
+						key = ss.Split(' ')[0];
+						value = ss.Substring(key.Length);
+					}
 
 					if(key.Contains("\""))
 					{
 						key = key.Substring(1, key.Length - 2);
 					}
 
-					if(value[value.Length - 1] == ',')
+					if(value.Length - 1 > 0)
 					{
-						value = value.Substring(1, value.Length - 3);
+						if(value[value.Length - 1] == ',')
+						{
+							value = value.Substring(1, value.Length - 3);
+						}
+						else if(value[value.Length - 1] == '\"' && value[1] == '\"')
+						{
+							value = value.Substring(2, value.Length - 3);
+						}
 					}
-					else
-					{
-						value = value.Substring(1, value.Length - 2);
-					}
+					//print(value);
 
 					switch(key)
 					{
 					case nameID:
-						
 						node.GetComponent<UpdateNodeText>().nameID.text += value;
 						break;
 					case altName:
@@ -92,10 +110,22 @@ public class Parser_IW : MonoBehaviour {
 						//print(ss);
 						position = new Vector3(float.Parse(xyzCoord[0]), float.Parse(xyzCoord[2]), float.Parse(xyzCoord[1]));
 						break;
+					case origin_alt:
+						node.GetComponent<UpdateNodeText>().origin.text += value;
+						var xyzCoord_alt = value.Split(' ');
+						//print(ss);
+						position = new Vector3(float.Parse(xyzCoord_alt[0]), float.Parse(xyzCoord_alt[2]), float.Parse(xyzCoord_alt[1]));
+						break;
 					case targetname:
 						node.GetComponent<UpdateNodeText>().localName.text += value;
 						break;
+					case targetname_alt:
+						node.GetComponent<UpdateNodeText>().localName.text += value;
+						break;
 					case classname:
+						node.GetComponent<UpdateNodeText>().type.text += value;
+						break;
+					case classname_alt:
 						node.GetComponent<UpdateNodeText>().type.text += value;
 						break;
 					default:

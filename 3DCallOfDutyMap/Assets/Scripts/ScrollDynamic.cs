@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine.UI;
  
 //https://forum.unity3d.com/threads/anybody-got-scrollrects-to-cooperate-with-dynamic-content.265600/
+
+
 public class ScrollDynamic : MonoBehaviour {
  
     public GameObject item;
@@ -40,6 +42,32 @@ public class ScrollDynamic : MonoBehaviour {
 		}
 	}
 
+	public void SelectedNameButton(string name)
+	{
+		
+		if(name == "Target")
+		{
+			foreach(var item in scrollItems)
+			{
+				item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().targetName;
+			}
+		}
+		else if(name == "Alternate")
+		{
+			foreach(var item in scrollItems)
+			{
+				item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().altName;
+			}
+		}
+		else if(name == "ID")
+		{
+			foreach(var item in scrollItems)
+			{
+				item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().nameID;
+			}
+		}
+	}
+
     public void CreateListOfItems (List<GameObject> data) 
     {
     	if(data.Count > 0)
@@ -71,8 +99,12 @@ public class ScrollDynamic : MonoBehaviour {
 	            GameObject newItem = Instantiate(item) as GameObject;
 
 	            newItem.name = data[i].GetComponent<UpdateNodeText>().origin.text.Substring(8);
-	            newItem.GetComponentInChildren<Text>().text = data[i].GetComponentInChildren<UpdateNodeText>().localName.text.Substring(6);
-	           
+	            newItem.GetComponentInChildren<Text>().text = data[i].GetComponentInChildren<UpdateNodeText>().localName.text.Substring(13);
+
+				newItem.GetComponent<TextHolder>().targetName = data[i].GetComponentInChildren<UpdateNodeText>().localName.text.Substring(13);
+				newItem.GetComponent<TextHolder>().altName = data[i].GetComponentInChildren<UpdateNodeText>().altName.text.Substring(18);
+				newItem.GetComponent<TextHolder>().nameID = data[i].GetComponentInChildren<UpdateNodeText>().nameID.text.Substring(9);
+
 				newItem.transform.SetParent(gameObject.transform, false);
 
 				if(firstPass)
