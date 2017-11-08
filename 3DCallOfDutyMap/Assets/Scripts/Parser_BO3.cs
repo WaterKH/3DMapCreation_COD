@@ -10,7 +10,7 @@ public class Parser_BO3 : MonoBehaviour {
 	public const string origin = "origin";
 	public const string targetname = "targetname";
 	public const string classname = "classname";
-	string[] stringSeparators = new string[] {"\n}\n{\n"};
+	string[] stringSeparators = new string[] {"\n}\n{\n", "\r\n}\r\n{\r\n" };
 	string[] dataSeparators = new string[] {"\n"};
 
 	public ScrollDynamic scrollDyn;
@@ -72,9 +72,9 @@ public class Parser_BO3 : MonoBehaviour {
 						{
 							value = value.Substring(1, value.Length - 3);
 						}
-						else if(value[value.Length - 1] == '\"' && value[1] == '\"')
+						else if(value[value.Length - 2] == '\"' && value[1] == '\"')
 						{
-							value = value.Substring(2, value.Length - 3);
+							value = value.Substring(2, value.Length - 4);
 						}
 					}
 					//print(value);
@@ -87,7 +87,7 @@ public class Parser_BO3 : MonoBehaviour {
 					case origin:
 						node.GetComponent<UpdateNodeText>().origin.text += value;
 						var xyzCoord = value.Split(' ');
-						//print(ss);
+						//print(value);
 						position = new Vector3(float.Parse(xyzCoord[0]), float.Parse(xyzCoord[2]), float.Parse(xyzCoord[1]));
 						break;
 					case targetname:
