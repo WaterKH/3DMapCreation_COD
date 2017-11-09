@@ -1,0 +1,1518 @@
+{
+    7510 "2"
+    35995 "2.4"
+    30915 "1"
+    38124 "0.06"
+    3363 "0.116"
+    35991 "0.447059 0.552941 0.713726"
+    35996 "0.01"
+    25 "0.116"
+    58 "worldspawn"
+    405 "-24.1033 -22.4002 1"
+    404 "0.34902 0.376471 0.431373"
+    406 "0"
+    13916 "1"
+    24637 "1"
+    169 "1"
+    15935 "1"
+    42540 "1024"
+    391 "0"
+    336 "0.282353 0.352941 0.435294"
+    16411 "1"
+    26418 "1"
+    30530 "1"
+    31626 "0"
+    35997 "0"
+    1512 "0.533333 0.580392 0.741176"
+    31956 "0"
+    40981 "0"
+    278 "0 0 0"
+    1426 "b0_e0"
+    1697 "1 24 18 0"
+}
+{
+    335 "48"
+    278 "-4496 5504 576"
+    29 "0 45 0"
+    58 "info_player_start"
+}
+{
+    278 "-2252 4864.5 1076"
+    29 "0 227.9 0"
+    58 "mp_global_intermission"
+}
+{
+    278 "432 1392 128"
+    421 "minimap_corner"
+    58 "script_origin"
+}
+{
+    58 "script_origin"
+    421 "minimap_corner"
+    278 "-5600 9216 192"
+}
+{
+    278 "-6768 8496 3736"
+    421 "minimap_corner"
+    58 "script_origin"
+}
+{
+    421 "delete_on_load"
+    278 "-3802.3 7099.9 926.8"
+    29 "3.79857 129.301 0"
+    3748 "tra_wreckage_german_crawl_death_guy01"
+    33033 "tra_wreckage_german_crawl_death_guy01"
+    262 "ger_infantrya_org2"
+    58 "script_model"
+}
+{
+    391 "1"
+    33376 "door_r"
+    421 "pf35_auto1"
+    58 "script_brushmodel"
+    278 "-1973 5235 1054"
+    33178 "field_to_yard"
+    33088 "750"
+    262 "*1"
+}
+{
+    391 "4"
+    33249 "1"
+    421 "pf35_auto1"
+    58 "trigger_use_touch"
+    278 "-1957 5205 1058"
+    33178 "field_to_yard"
+    33088 "750"
+    262 "?0"
+}
+{
+    418 "pf35_auto1"
+    278 "-1973 5205 1133.5"
+    421 "door"
+    58 "script_struct"
+    33178 "field_to_yard"
+    33088 "750"
+}
+{
+    391 "1"
+    33376 "door_l"
+    421 "pf35_auto1"
+    58 "script_brushmodel"
+    278 "-1973 5175 1054"
+    33178 "field_to_yard"
+    33088 "750"
+    262 "*2"
+}
+{
+    391 "4"
+    33249 "0"
+    421 "pf35_auto1"
+    58 "trigger_use_touch"
+    278 "-1989 5205 1058"
+    33178 "field_to_yard"
+    33088 "750"
+    262 "?1"
+}
+{
+    421 "first_door_lock"
+    29 "0 90 0"
+    278 "-1973 5205 1033.5"
+    262 "zmb_gate_lock_outliner_01"
+    58 "script_model"
+    33178 "field_to_yard"
+    33088 "750"
+}
+{
+    3748 "s2_zom_va_intro_wake_up"
+    421 "intro_scripted_node"
+    25248 "5"
+    278 "-4420 6442 932"
+    29 "0 0 0"
+    262 "axis"
+    58 "script_struct"
+}
+{
+    278 "-1910.2 4569.3 1056.9"
+    29 "356.147 321.493 8.92011"
+    262 "ger_oil_lamp_01_a"
+    58 "script_model"
+    421 "lamp_mystery_box"
+}
+{
+    278 "-2593 4431.5 1018"
+    421 "pf77_auto2108"
+    29 "0 0 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 0 0"
+    30 "wall_over_40"
+    278 "-2749 4431.5 1018"
+    418 "pf77_auto2108"
+}
+{
+    278 "-3254.5 4609.5 1044"
+    29 "0 90 0"
+    262 "ger_oil_lamp_01_a"
+    58 "script_model"
+    421 "lamp_mystery_box"
+}
+{
+    278 "-2072.38 4466.07 1010"
+    421 "pf103_auto2108"
+    29 "0 228 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 228 0"
+    30 "wall_over_40"
+    278 "-1968 4582 1010"
+    418 "pf103_auto2108"
+}
+{
+    391 "1"
+    33376 "door_r"
+    421 "pf131_auto1"
+    58 "script_brushmodel"
+    278 "-2433 4586 1062"
+    33178 "house_to_end"
+    33088 "2500"
+    262 "*3"
+}
+{
+    391 "4"
+    421 "pf131_auto1"
+    58 "trigger_use_touch"
+    278 "-2465 4588 1061"
+    33178 "house_to_end"
+    33088 "2500"
+    262 "?2"
+}
+{
+    418 "pf131_auto1"
+    278 "-2465 4589.8 1142"
+    421 "door"
+    58 "script_struct"
+    29 "0 269.999 0"
+    33178 "house_to_end"
+    33088 "2500"
+}
+{
+    391 "1"
+    33376 "door_l"
+    421 "pf131_auto1"
+    58 "script_brushmodel"
+    278 "-2497 4586 1062"
+    33178 "house_to_end"
+    33088 "2500"
+    262 "*4"
+}
+{
+    278 "-2461 4676.5 1144"
+    421 "pf135_auto2108"
+    29 "0 270 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 270 0"
+    30 "jump_down_fast"
+    278 "-2461 4772.5 1272"
+    418 "pf135_auto2108"
+}
+{
+    418 "pf137_auto1"
+    421 "house_door"
+    391 "1"
+    58 "script_brushmodel"
+    278 "-2301 4942 1048"
+    262 "*5"
+}
+{
+    262 "axis"
+    421 "pf137_auto3"
+    278 "-2329 4947 996"
+    29 "0 90 0"
+    58 "script_struct"
+}
+{
+    262 "axis"
+    418 "pf137_auto3"
+    421 "pf137_auto2"
+    278 "-2329 4947 1012"
+    29 "0 222.299 0"
+    58 "script_struct"
+}
+{
+    418 "pf137_auto2"
+    421 "pf137_auto1"
+    23899 "3"
+    23895 "1"
+    29 "0 222.299 0"
+    278 "-2329 4947 997.5"
+    262 "zmb_house_door_01"
+    58 "script_model"
+}
+{
+    29 "0 270 0"
+    357 "exit_point"
+    421 "pf140_auto1"
+    278 "-2881 5110 1012"
+    58 "script_struct"
+}
+{
+    357 "zbarrier_window"
+    418 "pf140_auto1"
+    58 "trigger_use_touch"
+    278 "-2881 5132 1068"
+    262 "?3"
+}
+{
+    29 "0 270 0"
+    357 "attack_spot"
+    421 "pf140_auto1"
+    33249 "1"
+    278 "-2884 5209 1006"
+    58 "script_struct"
+}
+{
+    29 "0 270 0"
+    357 "attack_spot"
+    421 "pf140_auto1"
+    33249 "0"
+    278 "-2852 5205 1004"
+    58 "script_struct"
+}
+{
+    29 "0 270 0"
+    357 "attack_spot"
+    421 "pf140_auto1"
+    33249 "2"
+    278 "-2915 5201 1006"
+    58 "script_struct"
+}
+{
+    29 "0 2.00358e-05 0"
+    357 "align_node"
+    421 "pf140_auto1"
+    33249 "1"
+    278 "-2881 5193 1026"
+    58 "script_struct"
+}
+{
+    278 "-2879 5059.5 1012"
+    421 "pf141_auto2108"
+    29 "0 270 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 270 0"
+    30 "spawn_closet_window_middle"
+    278 "-2879 5174 1012"
+    418 "pf141_auto2108"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 270 0"
+    30 "spawn_closet_window_right"
+    278 "-2893 5165 1012"
+    418 "pf141_auto2109"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 270 0"
+    30 "spawn_closet_window_left"
+    278 "-2869 5170 1012"
+    418 "pf141_auto2110"
+}
+{
+    278 "-2895 5059.5 1012"
+    421 "pf141_auto2109"
+    29 "0 270 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    278 "-2868 5059.5 1012"
+    421 "pf141_auto2110"
+    29 "0 270 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    421 "trig_ee_piano"
+    58 "trigger_use_touch"
+    278 "-2399 4802 1190"
+    262 "?4"
+}
+{
+    418 "pf130_auto1"
+    421 "mysterybox_door"
+    391 "1"
+    58 "script_brushmodel"
+    278 "-2432 4890 1179"
+    262 "*6"
+}
+{
+    32904 "1 -1 1"
+    421 "pf130_auto3"
+    278 "-2438 4916 1128"
+    29 "0 1.00179e-05 -0"
+    58 "script_struct"
+}
+{
+    32904 "1 -1 1"
+    418 "pf130_auto3"
+    421 "pf130_auto2"
+    278 "-2438 4916 1144"
+    29 "0 255.195 0"
+    58 "script_struct"
+}
+{
+    357 "door_model"
+    418 "pf130_auto2"
+    421 "pf130_auto1"
+    23899 "3"
+    23895 "1"
+    29 "0 255.195 0"
+    278 "-2438 4916 1132"
+    262 "hur_mill_door_01b"
+    58 "script_model"
+}
+{
+    278 "-2303.5 4614.5 1146"
+    421 "pf307_auto2108"
+    29 "0 90 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 90 0"
+    30 "wall_climb_up_128_over_32"
+    278 "-2303.5 4542.5 1018"
+    418 "pf307_auto2108"
+}
+{
+    278 "-2618 4615.5 1145.5"
+    421 "pf311_auto2108"
+    29 "0 90 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 90 0"
+    30 "wall_climb_up_128_over_32"
+    278 "-2618 4543.5 1017.5"
+    418 "pf311_auto2108"
+}
+{
+    29 "0 179.999 0"
+    357 "exit_point"
+    421 "pf317_auto1"
+    278 "-2110 4627 1012"
+    58 "script_struct"
+}
+{
+    357 "zbarrier_window"
+    418 "pf317_auto1"
+    58 "trigger_use_touch"
+    278 "-2088 4627 1068"
+    262 "?5"
+}
+{
+    29 "0 179.999 0"
+    357 "attack_spot"
+    421 "pf317_auto1"
+    33249 "1"
+    278 "-2011 4630 1006"
+    58 "script_struct"
+}
+{
+    29 "0 179.999 0"
+    357 "attack_spot"
+    421 "pf317_auto1"
+    33249 "0"
+    278 "-2015 4598 1004"
+    58 "script_struct"
+}
+{
+    29 "0 179.999 0"
+    357 "attack_spot"
+    421 "pf317_auto1"
+    33249 "2"
+    278 "-2019 4661 1006"
+    58 "script_struct"
+}
+{
+    29 "0 269.999 0"
+    357 "align_node"
+    421 "pf317_auto1"
+    33249 "1"
+    278 "-2027 4627 1026"
+    58 "script_struct"
+}
+{
+    278 "-2160.5 4625 1012"
+    421 "pf318_auto2108"
+    29 "0 179.999 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 179.999 0"
+    30 "spawn_closet_window_middle"
+    278 "-2046 4625 1012"
+    418 "pf318_auto2108"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 179.999 0"
+    30 "spawn_closet_window_right"
+    278 "-2055 4639 1012"
+    418 "pf318_auto2109"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 179.999 0"
+    30 "spawn_closet_window_left"
+    278 "-2050 4615 1012"
+    418 "pf318_auto2110"
+}
+{
+    278 "-2160.5 4641 1012"
+    421 "pf318_auto2109"
+    29 "0 179.999 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    278 "-2160.5 4614 1012"
+    421 "pf318_auto2110"
+    29 "0 179.999 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    278 "-2122.5 4882.5 1122"
+    421 "pf315_auto2108"
+    29 "0 180 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    40993 "zombie"
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 180 0"
+    30 "wall_climb_up_128_over_32"
+    278 "-2050.5 4882.5 1013.5"
+    418 "pf315_auto2108"
+}
+{
+    3748 "s2_zom_core_traverse_wall_climb_up_128_over_32"
+    262 "mp_zombie_player_default_body"
+    421 "delete_on_load"
+    278 "-2050.5 4882.5 997.5"
+    29 "0 180 0"
+    58 "script_struct"
+}
+{
+    278 "-2426.5 4753.5 1218.5"
+    29 "0 1.00179e-05 0"
+    262 "ger_oil_lamp_01_b"
+    58 "script_model"
+    421 "lamp_mystery_box"
+}
+{
+    29 "0 270 0"
+    357 "exit_point"
+    421 "pf336_auto1"
+    278 "-2514 4915 1010"
+    58 "script_struct"
+}
+{
+    357 "zbarrier_window"
+    418 "pf336_auto1"
+    58 "trigger_use_touch"
+    278 "-2514 4937 1066"
+    262 "?6"
+}
+{
+    29 "0 270 0"
+    357 "attack_spot"
+    421 "pf336_auto1"
+    33249 "1"
+    278 "-2517 5014 1004"
+    58 "script_struct"
+}
+{
+    29 "0 270 0"
+    357 "attack_spot"
+    421 "pf336_auto1"
+    33249 "0"
+    278 "-2485 5010 1002"
+    58 "script_struct"
+}
+{
+    29 "0 270 0"
+    357 "attack_spot"
+    421 "pf336_auto1"
+    33249 "2"
+    278 "-2548 5006 1004"
+    58 "script_struct"
+}
+{
+    29 "0 2.00358e-05 0"
+    357 "align_node"
+    421 "pf336_auto1"
+    33249 "1"
+    278 "-2514 4998 1024"
+    58 "script_struct"
+}
+{
+    278 "-2512 4864.5 1010"
+    421 "pf337_auto2108"
+    29 "0 270 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 270 0"
+    30 "spawn_closet_window_middle"
+    278 "-2512 4979 1010"
+    418 "pf337_auto2108"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 270 0"
+    30 "spawn_closet_window_right"
+    278 "-2526 4970 1010"
+    418 "pf337_auto2109"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 270 0"
+    30 "spawn_closet_window_left"
+    278 "-2502 4975 1010"
+    418 "pf337_auto2110"
+}
+{
+    278 "-2528 4864.5 1010"
+    421 "pf337_auto2109"
+    29 "0 270 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    278 "-2501 4864.5 1010"
+    421 "pf337_auto2110"
+    29 "0 270 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    278 "-2909.5 4702.5 1098"
+    29 "0 270 0"
+    262 "ger_oil_lamp_01_b"
+    58 "script_model"
+    421 "lamp_mystery_box"
+}
+{
+    278 "-2918 4806 1163"
+    29 "0 180 0"
+    262 "ger_oil_lamp_01_a"
+    58 "script_model"
+    421 "lamp_mystery_box"
+}
+{
+    278 "-3052 4661.5 1011"
+    421 "pf351_auto2108"
+    29 "0 1.00179e-05 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 1.00179e-05 0"
+    30 "spawn_closet_window_middle"
+    278 "-3166.5 4661.5 1011"
+    418 "pf351_auto2108"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 1.00179e-05 0"
+    30 "spawn_closet_window_right"
+    278 "-3157.5 4647.5 1011"
+    418 "pf351_auto2109"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 1.00179e-05 0"
+    30 "spawn_closet_window_left"
+    278 "-3162.5 4671.5 1011"
+    418 "pf351_auto2110"
+}
+{
+    278 "-3052 4645.5 1011"
+    421 "pf351_auto2109"
+    29 "0 1.00179e-05 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    278 "-3052 4672.5 1011"
+    421 "pf351_auto2110"
+    29 "0 1.00179e-05 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    278 "-3088 4881 1146"
+    421 "pf353_auto2108"
+    29 "0 360 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 360 0"
+    30 "wall_climb_up_128_over_32"
+    278 "-3160 4881 1018"
+    418 "pf353_auto2108"
+}
+{
+    278 "-2832 4609.2 1145"
+    421 "pf371_auto2108"
+    29 "0 90 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 90 0"
+    30 "wall_climb_up_128_over_32"
+    278 "-2832 4537.2 1017"
+    418 "pf371_auto2108"
+}
+{
+    262 "axis"
+    421 "window_shatter"
+    29 "270 270 90"
+    278 "-2904.8 4574.4 1072.5"
+    58 "script_struct"
+}
+{
+    421 "pf372_auto3"
+    278 "-2906.8 4564.5 1056.1"
+    29 "270 270 -1.04727e-05"
+    262 "ndy_wood_debris_wall_02"
+    58 "script_model"
+}
+{
+    58 "trigger_multiple"
+    278 "-2907 4586 993"
+    262 "?7"
+}
+{
+    29 "0 90 0"
+    421 "pf372_auto2"
+    357 "lookAtPoint"
+    278 "-2906.5 4638 1053"
+    58 "script_struct"
+}
+{
+    33033 "scripted_window_jumpscare_jump"
+    421 "jumpscare_spawner"
+    262 "mp_zombie_player_default_body"
+    278 "-2906.5 4513 995"
+    418 "pf372_auto2"
+    3748 "s2_zom_window_jump_scare"
+    29 "0 90 0"
+    58 "script_struct"
+}
+{
+    58 "trigger_multiple"
+    278 "-2906 4585 1013"
+    262 "?8"
+}
+{
+    418 "pf372_auto3"
+    421 "window_shatter"
+    29 "0 1.00179e-05 0"
+    278 "-2932 4566 1025.5"
+    262 "desp_zmb_ger_window_frame_01_snow"
+    58 "script_model"
+}
+{
+    357 "js_trigger"
+    421 "pf372_auto2"
+    58 "trigger_multiple"
+    278 "-2907 4671 1031"
+    262 "?9"
+}
+{
+    421 "pf372_auto3"
+    29 "0 1.00179e-05 90.0001"
+    278 "-2928.9 4573.5 1057.1"
+    262 "deb_wood_beams_07"
+    58 "script_model"
+}
+{
+    421 "pf372_auto3"
+    29 "274.7 359.999 90.0004"
+    278 "-2908 4579 1032.5"
+    262 "deb_wood_beams_09"
+    58 "script_model"
+}
+{
+    421 "pf372_auto3"
+    278 "-2906.8 4578.5 1056.1"
+    29 "270 291.697 158.303"
+    262 "ndy_wood_debris_wall_02"
+    58 "script_model"
+}
+{
+    421 "pf372_auto3"
+    29 "0 1.00179e-05 -89.9999"
+    278 "-2887.9 4571.5 1067.4"
+    262 "deb_wood_beams_07"
+    58 "script_model"
+}
+{
+    421 "pf372_auto3"
+    29 "87.5971 0.00220251 90.0013"
+    278 "-2906.5 4574.5 1093.5"
+    262 "deb_wood_beams_09"
+    58 "script_model"
+}
+{
+    278 "-2909 4649.5 1011"
+    421 "pf373_auto2108"
+    29 "0 90 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 90 0"
+    30 "spawn_closet_window_middle"
+    278 "-2909 4535 1011"
+    418 "pf373_auto2108"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 90 0"
+    30 "spawn_closet_window_right"
+    278 "-2895 4544 1011"
+    418 "pf373_auto2109"
+}
+{
+    391 "0"
+    421 "traverse"
+    58 "node_3d_negotiation_begin"
+    29 "0 90 0"
+    30 "spawn_closet_window_left"
+    278 "-2919 4539 1011"
+    418 "pf373_auto2110"
+}
+{
+    278 "-2893 4649.5 1011"
+    421 "pf373_auto2109"
+    29 "0 90 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    278 "-2920 4649.5 1011"
+    421 "pf373_auto2110"
+    29 "0 90 0"
+    58 "node_3d_negotiation_end"
+}
+{
+    278 "-2196.5 4657.5 1097.5"
+    29 "0 270 0"
+    262 "ger_oil_lamp_01_b"
+    58 "script_model"
+    421 "lamp_mystery_box"
+}
+{
+    278 "-2200 4830 1235"
+    29 "0 270 0"
+    262 "ger_oil_lamp_01_b"
+    58 "script_model"
+    421 "lamp_mystery_box"
+}
+{
+    278 "-2985 4593 1151.8"
+    29 "0 270 0"
+    262 "ger_oil_lamp_01_a"
+    58 "script_model"
+    421 "lamp_mystery_box"
+}
+{
+    278 "-2453 4753 1077.5"
+    29 "0 1.00179e-05 0"
+    262 "ger_oil_lamp_01_b"
+    58 "script_model"
+    421 "lamp_mystery_box"
+}
+{
+    278 "-2959.5 4847 1077.5"
+    29 "0 1.00179e-05 0"
+    262 "ger_oil_lamp_01_b"
+    58 "script_model"
+    421 "lamp_mystery_box"
+}
+{
+    278 "-432 2144 3736"
+    421 "minimap_corner"
+    58 "script_origin"
+}
+{
+    421 "pf454_auto0"
+    357 "clip"
+    58 "script_brushmodel"
+    278 "22 2 55"
+    33249 "2"
+    262 "*7"
+}
+{
+    421 "pf454_auto0"
+    357 "clip"
+    58 "script_brushmodel"
+    278 "22 1 55"
+    33249 "2"
+    262 "*8"
+}
+{
+    421 "pf454_auto0"
+    357 "clip_vis"
+    58 "script_brushmodel"
+    278 "22 2 55"
+    33249 "2"
+    262 "*9"
+}
+{
+    421 "pf454_auto0"
+    357 "clip_old"
+    58 "script_brushmodel"
+    278 "22 2 55"
+    33249 "2"
+    262 "*10"
+}
+{
+    33376 "shovel_zm"
+    418 "pf454_auto0"
+    421 "paired_melee_clip"
+    29 "0 180 0"
+    278 "22 -5 5"
+    262 "tag_origin"
+    58 "script_model"
+    33249 "2"
+}
+{
+    421 "pf455_auto0"
+    357 "clip"
+    58 "script_brushmodel"
+    278 "14 50 55"
+    33249 "3"
+    262 "*11"
+}
+{
+    421 "pf455_auto0"
+    357 "clip"
+    58 "script_brushmodel"
+    278 "14 49 55"
+    33249 "3"
+    262 "*12"
+}
+{
+    421 "pf455_auto0"
+    357 "clip_vis"
+    58 "script_brushmodel"
+    278 "14 50 55"
+    33249 "3"
+    262 "*13"
+}
+{
+    421 "pf455_auto0"
+    357 "clip_old"
+    58 "script_brushmodel"
+    278 "14 50 55"
+    33249 "3"
+    262 "*14"
+}
+{
+    33376 "shovel_zm"
+    418 "pf455_auto0"
+    421 "paired_melee_clip"
+    29 "0 180 0"
+    278 "14 43 5"
+    262 "tag_origin"
+    58 "script_model"
+    33249 "3"
+}
+{
+    421 "pf456_auto0"
+    357 "clip"
+    58 "script_brushmodel"
+    278 "54 10 55"
+    33249 "0"
+    262 "*15"
+}
+{
+    421 "pf456_auto0"
+    357 "clip"
+    58 "script_brushmodel"
+    278 "54 9 55"
+    33249 "0"
+    262 "*16"
+}
+{
+    421 "pf456_auto0"
+    357 "clip_vis"
+    58 "script_brushmodel"
+    278 "54 10 55"
+    33249 "0"
+    262 "*17"
+}
+{
+    421 "pf456_auto0"
+    357 "clip_old"
+    58 "script_brushmodel"
+    278 "54 10 55"
+    33249 "0"
+    262 "*18"
+}
+{
+    33376 "shovel_zm"
+    418 "pf456_auto0"
+    421 "paired_melee_clip"
+    29 "0 180 0"
+    278 "54 3 5"
+    262 "tag_origin"
+    58 "script_model"
+    33249 "0"
+}
+{
+    421 "pf457_auto0"
+    357 "clip"
+    58 "script_brushmodel"
+    278 "54 50 55"
+    33249 "1"
+    262 "*19"
+}
+{
+    421 "pf457_auto0"
+    357 "clip"
+    58 "script_brushmodel"
+    278 "54 49 55"
+    33249 "1"
+    262 "*20"
+}
+{
+    421 "pf457_auto0"
+    357 "clip_vis"
+    58 "script_brushmodel"
+    278 "54 50 55"
+    33249 "1"
+    262 "*21"
+}
+{
+    421 "pf457_auto0"
+    357 "clip_old"
+    58 "script_brushmodel"
+    278 "54 50 55"
+    33249 "1"
+    262 "*22"
+}
+{
+    33376 "shovel_zm"
+    418 "pf457_auto0"
+    421 "paired_melee_clip"
+    29 "0 180 0"
+    278 "54 43 5"
+    262 "tag_origin"
+    58 "script_model"
+    33249 "1"
+}
+{
+    33249 "0"
+    58 "trigger_use_touch"
+    278 "-2688 5018 1044"
+    421 "pf458_auto1"
+    262 "?10"
+}
+{
+    33249 "1"
+    58 "trigger_use_touch"
+    278 "-2688 5018 1044"
+    421 "pf458_auto1"
+    262 "?11"
+}
+{
+    33249 "2"
+    58 "trigger_use_touch"
+    278 "-2688 5018 1044"
+    421 "pf458_auto1"
+    262 "?12"
+}
+{
+    33249 "3"
+    58 "trigger_use_touch"
+    278 "-2688 5018 1044"
+    421 "pf458_auto1"
+    262 "?13"
+}
+{
+    421 "wallbuy"
+    418 "pf458_auto1"
+    33376 "1500,750"
+    357 "stg44_zm"
+    278 "-2659 5014 1051"
+    262 "npc_ger_stg44_base"
+    58 "script_struct"
+    29 "0 270 0"
+}
+{
+    29 "0 89.9998 0"
+    33376 "zombie_generic,exclusive"
+    33223 "ignoreRealign"
+    33033 "spawn_crawl_up"
+    262 "zom_infantrya_bodywhole"
+    278 "-3172 4571.6 990"
+    421 "house_spawners"
+    357 "zombie_spawner"
+    58 "script_struct"
+}
+{
+    29 "0 180 0"
+    33376 "zombie_generic,zombie_heavy,exclusive"
+    262 "zom_infantrya_bodywhole"
+    278 "-3158.5 4789.5 990"
+    421 "house_spawners"
+    357 "zombie_spawner"
+    58 "script_struct"
+}
+{
+    418 "house_spawners"
+    421 "zone_training_house"
+    58 "info_volume"
+    278 "-2560 4626 1172"
+    262 "?14"
+}
+{
+    29 "0 270 0"
+    33376 "zombie_generic,exclusive"
+    262 "zom_infantrya_bodywhole"
+    278 "-3174.5 5011.5 990"
+    421 "house_spawners"
+    357 "zombie_spawner"
+    58 "script_struct"
+}
+{
+    33376 "500,500"
+    421 "random_perk_buy"
+    58 "trigger_use_touch"
+    278 "-2385 4625 1183"
+    262 "?15"
+}
+{
+    33376 "500,500"
+    421 "random_perk_buy"
+    58 "trigger_use_touch"
+    278 "-2385 4625 1183"
+    262 "?16"
+}
+{
+    33376 "500,500"
+    421 "random_perk_buy"
+    58 "trigger_use_touch"
+    278 "-2385 4625 1183"
+    262 "?17"
+}
+{
+    33376 "500,500"
+    421 "random_perk_buy"
+    58 "trigger_use_touch"
+    278 "-2385 4625 1183"
+    262 "?18"
+}
+{
+    278 "-2386 4614 1158.9"
+    29 "0 180 0"
+    262 "zmb_perk_machine_01_fillament"
+    58 "script_model"
+}
+{
+    29 "355 270 5.95292e-07"
+    421 "playerLerpPos"
+    278 "-2386 4637.5 1129"
+    58 "script_struct_small"
+}
+{
+    29 "0 180 0"
+    33376 "zombie_generic,exclusive"
+    33223 "ignoreRealign"
+    33033 "spawn_crawl_up"
+    262 "zom_infantrya_bodywhole"
+    278 "-2137.3 5056.8 990"
+    421 "house_spawners"
+    357 "zombie_spawner"
+    58 "script_struct"
+}
+{
+    29 "0 180 0"
+    33376 "zombie_generic,exclusive"
+    33223 "ignoreRealign"
+    33033 "spawn_crawl_up"
+    262 "zom_infantrya_bodywhole"
+    278 "-2201.3 5056.8 990"
+    421 "house_spawners"
+    357 "zombie_spawner"
+    58 "script_struct"
+}
+{
+    29 "0 180 0"
+    33376 "zombie_generic,exclusive"
+    33223 "ignoreRealign"
+    33033 "spawn_crawl_up"
+    262 "zom_infantrya_bodywhole"
+    278 "-2761.3 5184.8 1003.9"
+    421 "house_spawners"
+    357 "zombie_spawner"
+    58 "script_struct"
+}
+{
+    29 "0 0 0"
+    33376 "zombie_generic,exclusive"
+    33223 "ignoreRealign"
+    33033 "spawn_crawl_up"
+    262 "zom_infantrya_bodywhole"
+    278 "-3097.3 5200.8 1003.9"
+    421 "house_spawners"
+    357 "zombie_spawner"
+    58 "script_struct"
+}
+{
+    29 "0 180 0"
+    33376 "zombie_generic,exclusive"
+    33223 "ignoreRealign"
+    33033 "spawn_crawl_up"
+    262 "zom_infantrya_bodywhole"
+    278 "-2169.3 4496.8 1003.9"
+    421 "house_spawners"
+    357 "zombie_spawner"
+    58 "script_struct"
+}
+{
+    29 "0 90 0"
+    33376 "zombie_generic,exclusive"
+    33223 "ignoreRealign"
+    33033 "spawn_crawl_up"
+    262 "zom_infantrya_bodywhole"
+    278 "-2601.3 4400.8 1003.9"
+    421 "house_spawners"
+    357 "zombie_spawner"
+    58 "script_struct"
+}
+{
+    357 "zombie_spawner"
+    33376 "zombie_generic,exclusive"
+    33223 "ignoreRealign"
+    33033 "spawn_crawl_up"
+    29 "0 146.999 0"
+    262 "zom_infantrya_bodywhole"
+    421 "house_spawners"
+    278 "-1765.3 4550.8 994.2"
+    58 "script_struct"
+}
+{
+    29 "0 180 0"
+    33376 "zombie_generic,exclusive"
+    33223 "ignoreRealign"
+    33033 "spawn_crawl_up"
+    262 "zom_infantrya_bodywhole"
+    278 "-2788 4491.6 1003.9"
+    421 "house_spawners"
+    357 "zombie_spawner"
+    58 "script_struct"
+}
+{
+    29 "0 1.00179e-05 0"
+    33376 "zombie_generic,exclusive"
+    33223 "ignoreRealign"
+    33033 "spawn_crawl_up"
+    262 "zom_infantrya_bodywhole"
+    278 "-3092 4507.6 1003.9"
+    421 "house_spawners"
+    357 "zombie_spawner"
+    58 "script_struct"
+}
+{
+    33249 "0"
+    58 "trigger_use_touch"
+    278 "-2292 4618 1045"
+    421 "pf463_auto1"
+    262 "?19"
+}
+{
+    33249 "1"
+    58 "trigger_use_touch"
+    278 "-2292 4618 1045"
+    421 "pf463_auto1"
+    262 "?20"
+}
+{
+    33249 "2"
+    58 "trigger_use_touch"
+    278 "-2292 4618 1045"
+    421 "pf463_auto1"
+    262 "?21"
+}
+{
+    33249 "3"
+    58 "trigger_use_touch"
+    278 "-2292 4618 1045"
+    421 "pf463_auto1"
+    262 "?22"
+}
+{
+    33376 "1000,500"
+    418 "pf463_auto1"
+    421 "wallbuy"
+    357 "mp40_zm"
+    278 "-2296 4588 1051.5"
+    262 "npc_ger_mp40_base"
+    58 "script_struct"
+    29 "0 180 0"
+}
+{
+    33249 "0"
+    58 "trigger_use_touch"
+    278 "-3054 4615 1178"
+    421 "pf466_auto1"
+    262 "?23"
+}
+{
+    33249 "1"
+    58 "trigger_use_touch"
+    278 "-3054 4615 1178"
+    421 "pf466_auto1"
+    262 "?24"
+}
+{
+    33249 "2"
+    58 "trigger_use_touch"
+    278 "-3054 4615 1178"
+    421 "pf466_auto1"
+    262 "?25"
+}
+{
+    33249 "3"
+    58 "trigger_use_touch"
+    278 "-3054 4615 1178"
+    421 "pf466_auto1"
+    262 "?26"
+}
+{
+    421 "wallbuy"
+    418 "pf466_auto1"
+    33376 "1000,500"
+    357 "winchester1897_zm"
+    278 "-3056 4585 1185"
+    262 "npc_usa_model1897_base"
+    58 "script_struct"
+    29 "0 180 0"
+}
+{
+    418 "pf451_auto34"
+    421 "mysterybox_door"
+    391 "1"
+    58 "script_brushmodel"
+    278 "-2605 4762 1189"
+    262 "*23"
+}
+{
+    262 "axis"
+    357 "closed_angle_l"
+    421 "pf451_auto35"
+    278 "-2659.7 4774.3 1131.8"
+    29 "0 90 0"
+    58 "script_struct"
+}
+{
+    262 "axis"
+    357 "open_angle_l"
+    418 "pf451_auto35"
+    421 "pf451_auto36"
+    278 "-2682.7 4774.3 1131.8"
+    29 "0 90 0"
+    58 "script_struct"
+}
+{
+    33376 "zombie_generic,zombie_heavy,zombie_fireman,exclusive"
+    262 "zom_infantrya_bodywhole"
+    278 "-2526.5 4795.5 1261.9"
+    421 "house_spawners"
+    357 "zombie_spawner"
+    58 "script_struct"
+}
+{
+    262 "axis"
+    357 "closed_pos_r"
+    421 "pf451_auto8"
+    278 "-2568.8 4774.3 1131.8"
+    29 "0 90 0"
+    58 "script_struct"
+}
+{
+    262 "axis"
+    357 "open_pos_r"
+    418 "pf451_auto8"
+    421 "pf451_auto9"
+    278 "-2536.8 4774.2 1131.8"
+    29 "0 90 0"
+    58 "script_struct"
+}
+{
+    418 "pf451_auto36"
+    421 "pf451_auto34"
+    357 "door_model_l"
+    29 "0 90.187 0"
+    278 "-2682.7 4774.3 1131.8"
+    262 "zmb_mill_door_01_l"
+    58 "script_model"
+}
+{
+    421 "magic_box"
+    418 "pf469_auto1"
+    58 "trigger_use_touch"
+    278 "-2736 4878 1161"
+    33376 "start_location"
+    262 "?27"
+}
+{
+    418 "pf451_auto9"
+    421 "pf451_auto34"
+    357 "door_model_r"
+    278 "-2536.8 4774.2 1131.8"
+    29 "0 90 0"
+    262 "zmb_mill_door_01_r"
+    58 "script_model"
+}
+{
+    24199 "
+    5"
+    421 "klaus_signs"
+    29 "0 359.997 0"
+    278 "-2197.5 4932.3 1262.3"
+    262 "zmb_sign_objective_01"
+    58 "script_model"
+}
+{
+    418 "house_spawners"
+    421 "zone_training_house"
+    58 "info_volume"
+    278 "-2634 5165 1048"
+    262 "?28"
+}
+{
+    357 "zombie_spawner"
+    33376 "zombie_generic,exclusive"
+    33223 "ignoreRealign"
+    33033 "spawn_crawl_up"
+    29 "0 266.999 0"
+    262 "zom_infantrya_bodywhole"
+    421 "house_spawners"
+    278 "-1909.3 4758.8 994.2"
+    58 "script_struct"
+}
+{
+    421 "pf470_auto2"
+    357 "armor_model"
+    278 "-2978 5104.5 996"
+    262 "zmb_recall_machine_01"
+    58 "script_model"
+}
+{
+    357 "armor_buy_trig"
+    33249 "0"
+    421 "pf470_auto2"
+    58 "trigger_use_touch"
+    278 "-2979 5092 1066"
+    262 "?29"
+}
+{
+    418 "pf470_auto2"
+    278 "-2978 5094 1104"
+    421 "armor_buy"
+    58 "script_struct"
+}
+{
+    357 "armor_buy_trig"
+    421 "pf470_auto2"
+    33249 "1"
+    58 "trigger_use_touch"
+    278 "-2979 5092 1066"
+    262 "?30"
+}
+{
+    357 "armor_buy_trig"
+    421 "pf470_auto2"
+    33249 "2"
+    58 "trigger_use_touch"
+    278 "-2979 5092 1066"
+    262 "?31"
+}
+{
+    357 "armor_buy_trig"
+    421 "pf470_auto2"
+    33249 "3"
+    58 "trigger_use_touch"
+    278 "-2979 5092 1066"
+    262 "?32"
+}
+
+
+
+
+
+
+
+
+
+
+
