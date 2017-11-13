@@ -40,30 +40,56 @@ public class ScrollDynamic : MonoBehaviour {
 		}
 	}
 
+    // Set the string name through the OnClick method on the button
 	public void SelectedNameButton(string name)
 	{
-		
-		if(name == "Target")
-		{
-			foreach(var item in scrollItems)
-			{
-				item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().targetName;
-			}
-		}
-		else if(name == "Alternate")
-		{
-			foreach(var item in scrollItems)
-			{
-				item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().altName;
-			}
-		}
-		else if(name == "ID")
-		{
-			foreach(var item in scrollItems)
-			{
-				item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().nameID;
-			}
-		}
+		switch(name)
+        {
+            case "Method":
+                foreach (var item in scrollItems)
+                {
+                    item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().methodname;
+                }
+                break;
+            case "CodeRef":
+                foreach (var item in scrollItems)
+                {
+                    item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().coderef;
+                }
+                break;
+            case "AltCodeRef":
+                foreach (var item in scrollItems)
+                {
+                    item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().altcoderef;
+                }
+                break;
+            case "Entity":
+                foreach (var item in scrollItems)
+                {
+                    item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().entityname;
+                }
+                break;
+            case "Event":
+                foreach (var item in scrollItems)
+                {
+                    item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().eventname;
+                }
+                break;
+            case "AltEntity":
+                foreach (var item in scrollItems)
+                {
+                    item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().altentityname;
+                }
+                break;
+            case "Spawner":
+                foreach (var item in scrollItems)
+                {
+                    item.GetComponentInChildren<Text>().text = item.GetComponent<TextHolder>().spawnername;
+                }
+                break;
+            default:
+                break;
+        }
 	}
 
     public void CreateListOfItems (List<GameObject> data) 
@@ -95,13 +121,17 @@ public class ScrollDynamic : MonoBehaviour {
 	       
 	            //create a new item, name it, and set the parent
 	            GameObject newItem = Instantiate(item) as GameObject;
+                // Use WWII UpdateNodeText_WWII
+	            newItem.name = data[i].GetComponent<UpdateNodeText_WWII>().origin.text.Split(':')[1].TrimStart();
+	            newItem.GetComponentInChildren<Text>().text = data[i].GetComponentInChildren<UpdateNodeText_WWII>().methodname.text.Split(':')[1].TrimStart();
 
-	            newItem.name = data[i].GetComponent<UpdateNodeText>().origin.text.Substring(8);
-	            newItem.GetComponentInChildren<Text>().text = data[i].GetComponentInChildren<UpdateNodeText>().localName.text.Substring(13);
-
-				newItem.GetComponent<TextHolder>().targetName = data[i].GetComponentInChildren<UpdateNodeText>().localName.text.Substring(13);
-				newItem.GetComponent<TextHolder>().altName = data[i].GetComponentInChildren<UpdateNodeText>().altName.text.Substring(18);
-				newItem.GetComponent<TextHolder>().nameID = data[i].GetComponentInChildren<UpdateNodeText>().nameID.text.Substring(9);
+				newItem.GetComponent<TextHolder>().methodname = data[i].GetComponentInChildren<UpdateNodeText_WWII>().methodname.text.Split(':')[1].TrimStart();
+                newItem.GetComponent<TextHolder>().coderef = data[i].GetComponentInChildren<UpdateNodeText_WWII>().coderef.text.Split(':')[1].TrimStart();
+                newItem.GetComponent<TextHolder>().altcoderef = data[i].GetComponentInChildren<UpdateNodeText_WWII>().altcoderef.text.Split(':')[1].TrimStart();
+                newItem.GetComponent<TextHolder>().entityname = data[i].GetComponentInChildren<UpdateNodeText_WWII>().entityname.text.Split(':')[1].TrimStart();
+                newItem.GetComponent<TextHolder>().eventname = data[i].GetComponentInChildren<UpdateNodeText_WWII>().eventname.text.Split(':')[1].TrimStart();
+                newItem.GetComponent<TextHolder>().altentityname = data[i].GetComponentInChildren<UpdateNodeText_WWII>().altentityname.text.Split(':')[1].TrimStart();
+                newItem.GetComponent<TextHolder>().spawnername = data[i].GetComponentInChildren<UpdateNodeText_WWII>().spawner.text.Split(':')[1].TrimStart();
 
 				newItem.transform.SetParent(gameObject.transform, false);
 

@@ -37,15 +37,16 @@ public class SearchBar : MonoBehaviour {
 				unusedItems.Add(i);
 			}
 		}
-
+        print("End search");
 		UpdateView(items, unusedItems);
-
+        print("Displaying search");
 	}
 
 	public void UpdateView(List<GameObject> data, List<GameObject> notUsedData)
 	{
 		if(data.Count > 0)
     	{
+            print("Updating View");
 	        RectTransform rowRectTransform = item.GetComponent<RectTransform>();
 	        RectTransform containerRectTransform = parent.GetComponent<RectTransform>();
 	   

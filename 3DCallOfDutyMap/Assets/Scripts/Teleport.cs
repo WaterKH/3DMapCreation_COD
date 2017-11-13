@@ -28,7 +28,7 @@ public class Teleport : MonoBehaviour {
         mainCamera.transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 
-    public void TeleportTo(string value)
+    /*public void TeleportTo(string value)
     {
         string[] coords = value.Split(stringSeparators, StringSplitOptions.None);
 
@@ -37,7 +37,7 @@ public class Teleport : MonoBehaviour {
         mainCamera.transform.position = teleVec;
         //mainCamera.transform.LookAt(teleVec);
         mainCamera.transform.rotation = Quaternion.Euler(0, 0, 0);
-    }
+    }*/
 
     void Update()
 	{

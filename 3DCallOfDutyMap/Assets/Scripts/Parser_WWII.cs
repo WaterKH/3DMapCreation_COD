@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Threading.Tasks;
 
 public class Parser_WWII : MonoBehaviour {
 
@@ -24,10 +25,10 @@ public class Parser_WWII : MonoBehaviour {
 	string[] dataSeparators = new string[] {"\n", "\r\n"};
     public static List<GameObject> parsedData;
 
-    //public ScrollDynamic scrollDyn;
+    public ScrollDynamic scrollDyn;
 
 
-    void Awake()
+    async void Awake()
 	{
 		print("Generating Nodes.");
 		var data = textAsset.text.Split(stringSeparators, StringSplitOptions.None);
@@ -47,18 +48,18 @@ public class Parser_WWII : MonoBehaviour {
 			subData.Add(d.Split(dataSeparators, StringSplitOptions.None));	
 		}
 
+        //parsedData = await Task.Run(() => ParseData(subData));
         parsedData = ParseData(subData);
-
+        Traverse_UI.SetData(parsedData);
         print("Generation Completed.");
 
-        //scrollDyn.CreateListOfItems(parsedData);
+        scrollDyn.CreateListOfItems(parsedData);
 
-        print("Condensing UI for easier viewing.");
-        UI_Sorter.Condense_UI(parsedData);
-        print("Condensing Completed.");
+        //print("Condensing UI for easier viewing.");
+        //UI_Sorter.Condense_UI(parsedData);
+        //print("Condensing Completed.");
 
-        Traverse_UI.SetData(parsedData);
-	}
+    }
 
 	public List<GameObject> ParseData(List<string[]> subData)
 	{
